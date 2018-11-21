@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1 Contact
+    .container
+        form(method="post")
+            .form-group
+                label Titre
+                input(class="form-group" type="text" name="title")
+            .form-group
+                label Contenue
+                input(class="form-control" type="text" name="content")
+            .form-group
+                input(class="btn bnt-primary" type="submit" value="Envoyer")                 
